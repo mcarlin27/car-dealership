@@ -1,0 +1,8 @@
+<h1>List of Cars</h1>
+
+@foreach(var car in Model)
+{
+  <p>Make/Model: @car.GetModel(), Mileage: @car.GetMiles(), Price: @car.GetPrice()</p>
+}
+
+<p><a href="/">Add another car</a></p>
